@@ -1,0 +1,40 @@
+DROP SEQUENCE seqEployeeSiteDhanmondi;
+DROP SEQUENCE seqCatagoriesSiteDhanmondi;
+DROP SEQUENCE seqMenuitemsSiteDhanmondi;
+DROP SEQUENCE seqCustomerSiteDhanmondi;
+DROP SEQUENCE seqReservationSiteDhanmondi;
+DROP SEQUENCE seqDiningTablesSiteDhanmondi;
+DROP SEQUENCE seqOrdersSiteDhanmondi;
+DROP SEQUENCE seqDiningTableTrackSiteDhanmondi;
+DROP SEQUENCE seqBillsSiteDhanmondi;
+
+DROP SEQUENCE seqEployeeSiteBailyRoad;
+DROP SEQUENCE seqCatagoriesSiteBailyRoad;
+DROP SEQUENCE seqMenuitemsSiteBailyRoad;
+DROP SEQUENCE seqCustomerSiteBailyRoad;
+DROP SEQUENCE seqReservationSiteBailyRoad;
+DROP SEQUENCE seqDiningTablesSiteBailyRoad;
+DROP SEQUENCE seqOrdersSiteBailyRoad;
+DROP SEQUENCE seqDiningTableTrackSiteBailyRoad;
+DROP SEQUENCE seqBillsSiteBailyRoad;
+
+CREATE SEQUENCE  seqEployeeSiteDhanmondi START WITH 1000 INCREMENT BY 1;
+CREATE SEQUENCE  seqCatagoriesSiteDhanmondi START WITH 1000 INCREMENT BY 1;
+CREATE SEQUENCE  seqMenuitemsSiteDhanmondi START WITH 1000 INCREMENT BY 1;
+CREATE SEQUENCE  seqCustomerSiteDhanmondi START WITH 1000 INCREMENT BY 1;
+CREATE SEQUENCE  seqReservationSiteDhanmondi START WITH 1000 INCREMENT BY 1;
+CREATE SEQUENCE  seqDiningTablesSiteDhanmondi START WITH 1000 INCREMENT BY 1;
+CREATE SEQUENCE  seqOrdersSiteDhanmondi START WITH 1000 INCREMENT BY 1;
+CREATE SEQUENCE  seqDiningTableTrackSiteDhanmondi START WITH 1000 INCREMENT BY 1;
+CREATE SEQUENCE  seqBillsSiteDhanmondi START WITH 1000 INCREMENT BY 1;
+
+CREATE SEQUENCE  seqEployeeSiteBailyRoad START WITH 3000 INCREMENT BY 1;
+CREATE SEQUENCE  seqCatagoriesSiteBailyRoad START WITH 3000 INCREMENT BY 1;
+CREATE SEQUENCE  seqMenuitemsSiteBailyRoad START WITH 3000 INCREMENT BY 1;
+CREATE SEQUENCE  seqCustomerSiteBailyRoad START WITH 3000 INCREMENT BY 1;
+CREATE SEQUENCE  seqReservationSiteBailyRoad START WITH 3000 INCREMENT BY 1;
+CREATE SEQUENCE  seqDiningTablesSiteBailyRoad START WITH 3000 INCREMENT BY 1;
+CREATE SEQUENCE  seqOrdersSiteBailyRoad START WITH 3000 INCREMENT BY 1;
+CREATE SEQUENCE  seqDiningTableTrackSiteBailyRoad START WITH 3000 INCREMENT BY 1;
+CREATE SEQUENCE  seqBillsSiteBailyRoad START WITH 3000 INCREMENT BY 1;
+commit;
